@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007fb4">
+    <EditText
+        android:id="@+id/movie_name"
+        android:layout_height="40dp"
+        android:hint="Enter movie name"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:padding="2dp"
+        android:background="#e4e4e4"
+        android:textColorHint="#b1b1b1"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/movie_type"
+        android:layout_height="40dp"
+        android:hint="Enter movie type"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:padding="2dp"
+        android:background="#e4e4e4"
+        android:textColor="@android:color/black"
+        android:textColorHint="#b1b1b1"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/add_movie_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Add Movie"
+        android:textColor="#000000" />
+    <ListView
+        android:id="@+id/movie_list"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:dividerHeight="4dp"
+        android:divider="@android:color/white"
+        android:layout_width="match_parent" />
+</LinearLayout>
